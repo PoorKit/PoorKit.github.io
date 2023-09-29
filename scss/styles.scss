@@ -693,12 +693,11 @@ footer {
     ----- 9. Skills Styles -----
     -------------------------------
 */
-
 #skills {
     padding: 50px 15px;
     text-align: center;
 
-    h2 {
+    h2, h3, h4 {
         color: $heading;
         margin-bottom: 50px;
     }
@@ -711,26 +710,17 @@ footer {
     }
 
     li {
-        display: block;
-        margin-bottom: 10px;
-        padding-left: 20px;
-        text-align: left;
-
-        .skill-category {
-            color: $heading;
-            background: darken($background-alt, 5%);
-            padding: 5px 10px;
-            display: inline-block;
-            margin-right: 10px;
-            font-size: 1.2em;
-        }
-
-        .skill-list {
-            display: inline-block;
-            font-size: 1.2em;
-        }
+        display: inline-block;
+        margin: 7px;
+        padding: 5px 10px;
+        color: $heading;
+        background: darken($background-alt, 5%);
+        list-style: none;
+        cursor: default;
+        font-size: 1.2em;
     }
 }
+
 
 /*
     -------------------------------
